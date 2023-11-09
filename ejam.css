@@ -1,0 +1,496 @@
+.headerTop {
+  /* min-width: 100%; */
+  height: 50px;
+  background-color: #252f3d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.pad-150 {
+  padding: 0 150px;
+}
+.not-hide {
+  visibility: hidden;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+.iconBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.icon-Text {
+  color: #fff;
+
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 12px */
+  text-transform: capitalize;
+}
+.logoArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.subLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px !important;
+}
+.headingArea span {
+  color: #000;
+
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 48px */
+  text-transform: capitalize;
+}
+.subHeading span {
+  color: #4d5254;
+
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 24px */
+  text-transform: capitalize;
+}
+
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.stepBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.stepBox span {
+  color: #000;
+
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 22px */
+  text-transform: capitalize;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.greenCheck {
+  width: 40px;
+  height: 40px;
+}
+
+.roundCircle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #2c7ef8;
+}
+.bg-blue {
+  background-color: #2c7ef8;
+}
+.roundCircle span {
+  color: white;
+}
+
+.imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.productHeading {
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 44.8px */
+  text-transform: capitalize;
+}
+.bg-grey {
+  border-radius: 10px;
+  background: #fafafa;
+}
+.prodImg {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+}
+.prodName {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.pName {
+  color: #000;
+
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  text-transform: capitalize;
+}
+.previousPrice {
+  color: #969696;
+
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+  text-decoration: line-through;
+  text-transform: capitalize;
+}
+.newPrice {
+  color: #2c7ef8;
+
+  font-family: Manrope;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+}
+.stockLeft {
+  color: #37465a;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.descp {
+  color: #4d5254;
+
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.blue-box {
+  border-radius: 10px;
+  background: #edf3fd;
+
+  display: flex;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.boxText {
+  color: #000;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.buttonGreen {
+  display: flex;
+  padding: 16px 64px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 50px;
+  background: #59ae43;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.paymentBox {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid #cfcfcf;
+}
+.seperator {
+  border: 1px solid #cfcfcf;
+  height: 16px;
+}
+.payText {
+  color: #4d5254;
+  text-align: center;
+
+  font-family: Manrope;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  text-transform: capitalize;
+}
+
+.dangerText {
+  color: #f82c2c;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  text-align: center;
+}
+.badgeArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.footerArea {
+  width: 100%;
+  display: inline-flex;
+  padding: 24px 119px 24px 127px;
+  justify-content: space-between;
+  align-items: center;
+  background: #252f3d;
+}
+.footerArea span {
+  color: white;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  text-transform: lowercase;
+}
+.mt-48 {
+  margin-top: 48px;
+}
+
+.clientTestimonial {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+.para {
+  color: #4d5254;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.verified {
+  color: #5bb59a;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 14.4px */
+}
+
+.not-hide {
+  /* display: none; */
+}
+/* media query */
+
+@media screen and (max-width: 760px) {
+  /* .headerTop {
+    min-height: 150px;
+    background-color: #252f3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+  } */
+  .icon-Text {
+    color: white;
+  }
+  .pad-150 {
+    padding: 0 40px;
+  }
+  .hide {
+    visibility: hidden;
+    display: none !important;
+  }
+  .not-hide {
+    /* display: block; */
+    visibility: visible;
+  }
+  .hideNone {
+    display: none;
+  }
+  .mt-60 {
+    margin-top: 10px;
+  }
+  .mainLogo img {
+    width: 106.667px;
+    height: 20px;
+  }
+  .subLogo img {
+    width: 44px;
+    height: 16px;
+  }
+  .headingArea span {
+    color: #000;
+    text-align: center;
+
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 44.8px */
+    text-transform: capitalize;
+  }
+  .subHeading {
+    color: #4d5254;
+    text-align: center;
+
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    text-transform: capitalize;
+  }
+  .greenCheck,
+  .roundCircle {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .stepBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .stepBox span {
+    flex-wrap: wrap;
+
+    color: #000;
+
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+    text-transform: capitalize;
+  }
+  .productHeading {
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 44.8px */
+    text-transform: capitalize;
+  }
+  .tick {
+    width: 12px;
+    height: 8px;
+    flex-shrink: 0;
+  }
+  .ulText {
+    color: #4d5254;
+
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 19.2px */
+  }
+  .buttonGreen {
+    color: #fff;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .badgeArea span {
+    color: #4d5254;
+
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+  }
+  .dangerText {
+    color: #f82c2c;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+  }
+
+  .footerArea {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #252f3d;
+  }
+  .footerArea span {
+    color: white;
+    color: #fff;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    text-transform: lowercase;
+  }
+  .paymentBox {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #cfcfcf;
+  }
+}
